@@ -11,9 +11,9 @@
 - **기간**: 2024년 8월
 - **형태**: 팀 프로젝트 (SVN 기반 협업)
 - **주요 기여자**:  
-  - 6_parkyoungung – 엔진 및 시스템 로직, 빌드 파이프라인, CSV 로더, 노트 매니저  
-  - 6_kimsiwoo – 타임라인 시스템, CurrTimeBlock 모듈, CameraActor, 월드 관리  
-  - 6_woosecheol – 오디오 시스템, SoundManager, Note Actor  
+  - 박영웅 – 엔진 및 시스템 로직, 빌드 파이프라인, CSV 로더, 노트 매니저  
+  - 김시우 – 타임라인 시스템, CurrTimeBlock 모듈, CameraActor, 월드 관리  
+  - 우세철 – 오디오 시스템, SoundManager, Note Actor  
 
 ---
 
