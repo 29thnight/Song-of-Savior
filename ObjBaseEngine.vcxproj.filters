@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{bbf5b7bd-3ae8-4a8e-a115-a65c8340f01a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass">
+      <UniqueIdentifier>{bea5c4c6-2107-492c-bc63-f3b6ff730e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ClientBase">
+      <UniqueIdentifier>{ff3e5e96-0c49-4989-b485-2d61da320335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components">
+      <UniqueIdentifier>{9347d3ca-ce87-4c46-9c5b-aa08368843b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Interface">
+      <UniqueIdentifier>{f6cb8a24-1128-4965-93b7-6fdcf8eb03ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers">
+      <UniqueIdentifier>{153e88e1-8773-4f8a-aa55-77371c5fdf1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility">
+      <UniqueIdentifier>{f3bcc8c5-2b1f-4e98-b8aa-003b642c9eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ClientBase\MainEntry">
+      <UniqueIdentifier>{57d08624-9dec-4a82-b5a5-f1ae6966305b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Mathf">
+      <UniqueIdentifier>{2f48d23a-fbcf-46f0-8bde-e1d7ffdf213a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Base">
+      <UniqueIdentifier>{594e92e0-25b9-480a-a629-05779469875b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Base\Macro">
+      <UniqueIdentifier>{c5e8267e-79a2-4b62-b60a-8c5d89cd49cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Base\Function">
+      <UniqueIdentifier>{84ebb619-ad32-4f0c-9c75-55199600f6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Base\Enum">
+      <UniqueIdentifier>{85961d4f-c677-46b9-b73a-99491688ff6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Base\Define">
+      <UniqueIdentifier>{9067da64-7af7-4352-91f8-b2c4322f67af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Base\Struct">
+      <UniqueIdentifier>{3360971e-02bc-4202-ab9f-f778791aeff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Base\Type">
+      <UniqueIdentifier>{a8f061d7-a788-4270-90e2-98a9ffbce647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Mathf\Matx">
+      <UniqueIdentifier>{d6006b0f-42e5-472a-8455-4bebac07996d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Mathf\Vector2">
+      <UniqueIdentifier>{a963ce79-da1a-4bfd-af56-6eb322297f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Mathf\Mathf">
+      <UniqueIdentifier>{7efcc865-66d6-4d3b-bae9-1f0a50c9034d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\ObjectPtr">
+      <UniqueIdentifier>{6d7e5f54-fc7d-4baa-81be-4acf7b38115d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Random">
+      <UniqueIdentifier>{76dc01e4-fc9f-4a94-b8ab-fb108a16bfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Singleton">
+      <UniqueIdentifier>{30c7673f-e72e-458a-96a6-b349fd155886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Actor">
+      <UniqueIdentifier>{0a10bbd5-1733-45b4-8c49-ef3913c61652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Core">
+      <UniqueIdentifier>{22812770-ac94-4b98-b426-ed8bbb6a7026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\InputAction">
+      <UniqueIdentifier>{090055d3-2e85-4a1d-8c26-155b658c6bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\InputMapping">
+      <UniqueIdentifier>{3e88b9ff-bee1-48fe-aa8e-7aa6b2931e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Layer">
+      <UniqueIdentifier>{25eb2495-c10f-4441-84d6-f4eac826c876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Level">
+      <UniqueIdentifier>{e5ef8de2-9593-45bb-9664-04a2eb749e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Object">
+      <UniqueIdentifier>{57de31fc-c101-4afa-bb77-699d79564af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Resource">
+      <UniqueIdentifier>{687cb271-d78a-45d4-b108-9cf57369e4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\StateMachine">
+      <UniqueIdentifier>{b1c66867-af7a-4dab-b563-41d34b3c658d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Transform">
+      <UniqueIdentifier>{e6e5be33-9091-4d7c-86b6-a5513ef88dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\World">
+      <UniqueIdentifier>{aba13d31-2e69-4ab8-aeba-cbf7a9acc74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ClientBase\System">
+      <UniqueIdentifier>{331b53f5-5a28-446e-8d77-6339dbd1f73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Actor\CameraActor">
+      <UniqueIdentifier>{a16f2ca2-502c-4dbe-b309-76380b39f166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Resource\Texture">
+      <UniqueIdentifier>{39f0fb30-d59e-4c87-b017-3c2c73d23895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\ActorComponents">
+      <UniqueIdentifier>{8f3d6d54-db64-4927-8cf5-b9371183ecb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\ActorComponents\ActorComponent">
+      <UniqueIdentifier>{2de21172-07ce-4c70-b72e-7a4f787eb46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\ActorComponents\InputComponent">
+      <UniqueIdentifier>{1b797266-b4b1-45b5-b82c-951ad1b45e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\ActorComponents\MovementComponent">
+      <UniqueIdentifier>{d0e6d3c4-5265-4dad-92de-e93e3fea2940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\ActorComponents\StateComponent">
+      <UniqueIdentifier>{e6ab8473-9874-4eed-9bbc-1c92510182bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents">
+      <UniqueIdentifier>{58a39fe7-1007-47f6-85c0-30e1eb0654a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\SceneComponent">
+      <UniqueIdentifier>{e8938455-3200-41c0-ac87-b5509e71dc47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\BitmapComponent">
+      <UniqueIdentifier>{e973a82b-957b-4b79-b526-ad1c317aa94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\CameraComponent">
+      <UniqueIdentifier>{b5a1ff23-0ea6-4d27-851b-1914dc55753b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\CollisionComponent">
+      <UniqueIdentifier>{ccfa8c2b-93e2-47bb-ac8a-8748b4d8d076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\RenderComponent">
+      <UniqueIdentifier>{d1f5b919-8bdf-48b7-b101-63890fcdc70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\TextRenderComponent">
+      <UniqueIdentifier>{f7d69b69-d204-486e-9c49-dea2c8862bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\CollisionManager">
+      <UniqueIdentifier>{3105a61d-3d4a-4b70-8fb6-e5cc341c2f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\CoreManager">
+      <UniqueIdentifier>{17d9600a-0979-4caf-a6fd-6bf9192dbab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\GraphicsManager">
+      <UniqueIdentifier>{eeb1d35a-3c46-47e4-bb66-429f4df011a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\InputManager">
+      <UniqueIdentifier>{6c4be7aa-6f0c-429b-97ce-38ba13e919c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\ResourceManager">
+      <UniqueIdentifier>{fe1e78b3-ff98-4c2d-ad31-c13d7acae9ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\TimeManager">
+      <UniqueIdentifier>{3164e86d-da5f-44aa-a337-317af47e3b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\ResourceManager\FontManager">
+      <UniqueIdentifier>{4b0446f8-3530-4ea2-a798-466b6b98079b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\ResourceManager\TextureManager">
+      <UniqueIdentifier>{09688cbc-4e91-4f92-a8f4-587a11328ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\ResourceManager\SoundManager">
+      <UniqueIdentifier>{0eadc10a-9f0b-4915-abd2-ec917af128a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\CollisionComponent\BoxComponent">
+      <UniqueIdentifier>{639d094c-8bf7-43e5-af9c-4805defb26c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Actor\Actor">
+      <UniqueIdentifier>{26e2c857-b66b-4f2c-b853-0f8ce79cc1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\StateMachine\State">
+      <UniqueIdentifier>{1c8e8441-2034-462b-ac56-87041a77e6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Delegate">
+      <UniqueIdentifier>{1d0734a9-e006-4a1e-bc6d-238065462858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\StateMachine\StateTransition">
+      <UniqueIdentifier>{2272dabb-d7e8-4bc0-b868-71bdfe356a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\StateMachine\StateMachine">
+      <UniqueIdentifier>{e4d8dffa-f9dc-4a66-8b70-7510daab27cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\CollisionComponent\SphereComponent">
+      <UniqueIdentifier>{50d90b52-a828-4e9a-b58b-ffcc903d1823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\ActorComponents\RigidBodyComponent">
+      <UniqueIdentifier>{4972744c-270a-4478-83dc-96a5c6cddb49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\CollisionComponent\RayCastComponent">
+      <UniqueIdentifier>{79b66000-c26a-4a43-b289-74eec874bb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\CollisionComponent\OBBComponent">
+      <UniqueIdentifier>{14baa43b-febb-44ff-84a9-3bbef1b2f7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Collision">
+      <UniqueIdentifier>{d5bc5650-68f6-4ff5-9ee2-3b1faf97794f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Collision\Acollision">
+      <UniqueIdentifier>{76fcbfb0-92c4-44c9-884b-097dcdeee383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Collision\Rcollision">
+      <UniqueIdentifier>{6f0aa12b-aa9b-45f7-b942-0604b4b1e466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\WinUtility">
+      <UniqueIdentifier>{0316e932-ad14-4118-91dd-66a3afa94c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Resource\Animation">
+      <UniqueIdentifier>{a16b2d33-d1ed-40d3-b6e8-02004fb0bec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\AnimationComponent">
+      <UniqueIdentifier>{bb01456a-7214-4914-b807-1e49e52ed4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\CsvFile">
+      <UniqueIdentifier>{a1a4b4e2-1156-47ae-9d30-5d1d31319366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\IniFile">
+      <UniqueIdentifier>{9a77087a-773f-4f2c-83c4-fefdb18427b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\UnicodeConvert">
+      <UniqueIdentifier>{d49510a9-ef93-4e43-b17d-dd2bf087e4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\ActorComponents\TimerComponent">
+      <UniqueIdentifier>{25ce54f7-b3f4-4f41-95b2-b8cf681f5d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\ResourceManager\AssetManager">
+      <UniqueIdentifier>{8617be6b-7c1b-4464-b3a8-366c224a6e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\ThreadPool">
+      <UniqueIdentifier>{a5f6d6b0-ed9c-4482-a35d-300046d933e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BaseClass\Level\JsonLevel">
+      <UniqueIdentifier>{e6b9af9a-fe88-4630-9d39-ac26465fd774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\ResourceManager\VideoManager">
+      <UniqueIdentifier>{65b8e765-97e6-4385-b98a-1e83dbc827d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\BasicAnimationComponent">
+      <UniqueIdentifier>{3ea2f89e-1427-41cc-9390-76e2372e8619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SceneComponents\LineRenderComponent">
+      <UniqueIdentifier>{2d8dded4-6385-4132-9f57-d35649cd33a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\CoreDefine.h">
+      <Filter>Engine\Utility\Base\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CoreEnum.h">
+      <Filter>Engine\Utility\Base\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CoreFunction.h">
+      <Filter>Engine\Utility\Base\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CoreMacro.h">
+      <Filter>Engine\Utility\Base\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CoreStruct.h">
+      <Filter>Engine\Utility\Base\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\MainEntry.h">
+      <Filter>Engine\ClientBase\MainEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Singleton.h">
+      <Filter>Engine\Utility\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CoreType.h">
+      <Filter>Engine\Utility\Base\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Mathf.h">
+      <Filter>Engine\Utility\Mathf\Mathf</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Matx.h">
+      <Filter>Engine\Utility\Mathf\Matx</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Vector2.h">
+      <Filter>Engine\Utility\Mathf\Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ObjectPtr.h">
+      <Filter>Engine\Utility\ObjectPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ACollision.h">
+      <Filter>Engine\BaseClass\Collision\Acollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CameraActor.h">
+      <Filter>Engine\BaseClass\Actor\CameraActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\InputAction.h">
+      <Filter>Engine\BaseClass\InputAction</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\InputMapping.h">
+      <Filter>Engine\BaseClass\InputMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Layer.h">
+      <Filter>Engine\BaseClass\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Level.h">
+      <Filter>Engine\BaseClass\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\World.h">
+      <Filter>Engine\BaseClass\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Transform.h">
+      <Filter>Engine\BaseClass\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Object.h">
+      <Filter>Engine\BaseClass\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\IColliderReceiver.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\IInputAction.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\IOnInputReceived.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ISetupInputComponent.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ActorComponent.h">
+      <Filter>Engine\Components\ActorComponents\ActorComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\InputComponent.h">
+      <Filter>Engine\Components\ActorComponents\InputComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\MovementComponent.h">
+      <Filter>Engine\Components\ActorComponents\MovementComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\StateComponent.h">
+      <Filter>Engine\Components\ActorComponents\StateComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\BitmapComponent.h">
+      <Filter>Engine\Components\SceneComponents\BitmapComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\AnimationComponent.h">
+      <Filter>Engine\Components\SceneComponents\AnimationComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CameraComponent.h">
+      <Filter>Engine\Components\SceneComponents\CameraComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CollisionComponent.h">
+      <Filter>Engine\Components\SceneComponents\CollisionComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\TextRenderComponent.h">
+      <Filter>Engine\Components\SceneComponents\TextRenderComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\RenderComponent.h">
+      <Filter>Engine\Components\SceneComponents\RenderComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SceneComponent.h">
+      <Filter>Engine\Components\SceneComponents\SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CoreManager.h">
+      <Filter>Engine\Managers\CoreManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GraphicsManager.h">
+      <Filter>Engine\Managers\GraphicsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\InputManager.h">
+      <Filter>Engine\Managers\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\TimeManager.h">
+      <Filter>Engine\Managers\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\FontManager.h">
+      <Filter>Engine\Managers\ResourceManager\FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SoundManager.h">
+      <Filter>Engine\Managers\ResourceManager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\TextureManager.h">
+      <Filter>Engine\Managers\ResourceManager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\System.h">
+      <Filter>Engine\ClientBase\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Actor.h">
+      <Filter>Engine\BaseClass\Actor\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CoreBase.h">
+      <Filter>Engine\BaseClass\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\State.h">
+      <Filter>Engine\BaseClass\StateMachine\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\StateTransition.h">
+      <Filter>Engine\BaseClass\StateMachine\StateTransition</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\StateMachine.h">
+      <Filter>Engine\BaseClass\StateMachine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Texture.h">
+      <Filter>Engine\BaseClass\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Delegate.h">
+      <Filter>Engine\BaseClass\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CollisionManager.h">
+      <Filter>Engine\Managers\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SimpleIniLoader.h">
+      <Filter>Engine\Utility\IniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Random.h">
+      <Filter>Engine\Utility\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\BoxComponent.h">
+      <Filter>Engine\Components\SceneComponents\CollisionComponent\BoxComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\RigidBodyComponent.h">
+      <Filter>Engine\Components\ActorComponents\RigidBodyComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CsvLoader.h">
+      <Filter>Engine\Utility\CsvFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\RCollision.h">
+      <Filter>Engine\BaseClass\Collision\Rcollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\LineColliderComponent.h">
+      <Filter>Engine\Components\SceneComponents\CollisionComponent\RayCastComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\WinUtility.h">
+      <Filter>Engine\Utility\WinUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Animation.h">
+      <Filter>Engine\BaseClass\Resource\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\UtfConvert.h">
+      <Filter>Engine\Utility\UnicodeConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\TimerComponent.h">
+      <Filter>Engine\Components\ActorComponents\TimerComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\AssetManager.h">
+      <Filter>Engine\Managers\ResourceManager\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ThreadPool.h">
+      <Filter>Engine\Utility\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\JsonLevel.h">
+      <Filter>Engine\BaseClass\Level\JsonLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\BasicAnimationComponent.h">
+      <Filter>Engine\Components\SceneComponents\BasicAnimationComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\VideoManager.h">
+      <Filter>Engine\Managers\ResourceManager\VideoManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\LineRenderComponent.h">
+      <Filter>Engine\Components\SceneComponents\LineRenderComponent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\MainEntry.cpp">
+      <Filter>Engine\ClientBase\MainEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ACollision.cpp">
+      <Filter>Engine\BaseClass\Collision\Acollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CameraActor.cpp">
+      <Filter>Engine\BaseClass\Actor\CameraActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Layer.cpp">
+      <Filter>Engine\BaseClass\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Level.cpp">
+      <Filter>Engine\BaseClass\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\World.cpp">
+      <Filter>Engine\BaseClass\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Transform.cpp">
+      <Filter>Engine\BaseClass\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Texture.cpp">
+      <Filter>Engine\BaseClass\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Object.cpp">
+      <Filter>Engine\BaseClass\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System.cpp">
+      <Filter>Engine\ClientBase\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\InputComponent.cpp">
+      <Filter>Engine\Components\ActorComponents\InputComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MovementComponent.cpp">
+      <Filter>Engine\Components\ActorComponents\MovementComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StateComponent.cpp">
+      <Filter>Engine\Components\ActorComponents\StateComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BitmapComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\BitmapComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\AnimationComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CameraComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\CameraComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CollisionComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\CollisionComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextRenderComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\TextRenderComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RenderComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\RenderComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SceneComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CoreManager.cpp">
+      <Filter>Engine\Managers\CoreManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GraphicsManager.cpp">
+      <Filter>Engine\Managers\GraphicsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\InputManager.cpp">
+      <Filter>Engine\Managers\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TimeManager.cpp">
+      <Filter>Engine\Managers\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FontManager.cpp">
+      <Filter>Engine\Managers\ResourceManager\FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SoundManager.cpp">
+      <Filter>Engine\Managers\ResourceManager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextureManager.cpp">
+      <Filter>Engine\Managers\ResourceManager\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor.cpp">
+      <Filter>Engine\BaseClass\Actor\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\State.cpp">
+      <Filter>Engine\BaseClass\StateMachine\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StateMachine.cpp">
+      <Filter>Engine\BaseClass\StateMachine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\InputMapping.cpp">
+      <Filter>Engine\BaseClass\InputMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CollisionManager.cpp">
+      <Filter>Engine\Managers\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RigidBodyComponent.cpp">
+      <Filter>Engine\Components\ActorComponents\RigidBodyComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BoxComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\CollisionComponent\BoxComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RCollision.cpp">
+      <Filter>Engine\BaseClass\Collision\Rcollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LineColliderComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\CollisionComponent\RayCastComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WinUtility.cpp">
+      <Filter>Engine\Utility\WinUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Animation.cpp">
+      <Filter>Engine\BaseClass\Resource\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UtfConvert.cpp">
+      <Filter>Engine\Utility\UnicodeConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TimerComponent.cpp">
+      <Filter>Engine\Components\ActorComponents\TimerComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ThreadPool.cpp">
+      <Filter>Engine\Utility\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BasicAnimationComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\BasicAnimationComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LineRenderComponent.cpp">
+      <Filter>Engine\Components\SceneComponents\LineRenderComponent</Filter>
+    </ClCompile>    <ClCompile Include="Src\VideoManager.cpp">
+      <Filter>Engine\Managers\ResourceManager\VideoManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ObjBaseEngine.rc">
+      <Filter>Engine</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

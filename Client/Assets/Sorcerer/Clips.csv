@@ -1,0 +1,6 @@
+AnimationClipName,frameTime,isLoop
+Effect/MagicCircle,0.04f,FALSE
+Effect/Thunder,0.04f,FALSE
+Idle,0.04f,TRUE
+Attack,0.04f,FALSE
+Skill,0.04f,FALSE

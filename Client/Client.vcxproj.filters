@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NoteEditors">
+      <UniqueIdentifier>{9784d113-55c4-4390-9566-fece341d3dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NoteEditors\TImelineBlock">
+      <UniqueIdentifier>{fc7d4645-e3b2-4edd-99c4-1215162c2dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NoteEditors\TimelineManager">
+      <UniqueIdentifier>{b5e08659-1cce-4c04-9b62-f436bb4bfb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NoteEditors\NoteEditer">
+      <UniqueIdentifier>{bd3f8258-05d9-40c6-ba4e-07f99d42354f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass">
+      <UniqueIdentifier>{bdf09e99-bf23-41fc-ab2f-7fdad350767e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientWorld">
+      <UniqueIdentifier>{b95d0948-bee1-478c-866b-dcfb944bf102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientEntry">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="NoteEditors\CurrTimeBlock">
+      <UniqueIdentifier>{12bb60eb-ef72-4af9-baf5-6b92b8d232af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameManagers">
+      <UniqueIdentifier>{000952ef-9706-4670-b52f-b197918a8216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameManagers\GameManager">
+      <UniqueIdentifier>{67e382af-74a3-4126-9278-32a9f8a2af40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameManagers\BGMManager">
+      <UniqueIdentifier>{64937deb-723d-4904-bee3-0b74bd53d04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameManagers\NoteManager">
+      <UniqueIdentifier>{5b67b8d7-9f54-4015-af1a-252dfe86fcd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents">
+      <UniqueIdentifier>{2cd5d903-cc50-48c4-9799-70eab1973670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Note">
+      <UniqueIdentifier>{2766f332-d1e8-4844-9be9-8166bfa65fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameUI">
+      <UniqueIdentifier>{6c684fed-b00c-41f4-9c08-5178b00ea328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NoteEditors\TimelineCurrNote">
+      <UniqueIdentifier>{1bf5471d-43ec-4bd7-af99-26f5bff5ff74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameManagers\BossManager">
+      <UniqueIdentifier>{34b5bbb0-df86-4ab6-b87a-e3ca9e87b402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel\Title">
+      <UniqueIdentifier>{ecbe6809-f78c-4f07-b465-d2d03ef95721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientEnum">
+      <UniqueIdentifier>{063686bb-a644-4591-b7d6-dbb2ef044a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Title">
+      <UniqueIdentifier>{a472d449-8761-4810-ac7c-0c0cb070dae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\EditorWorld">
+      <UniqueIdentifier>{8a368a77-f47c-4d33-a0b9-0566c3af2ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel\DialogueLevel">
+      <UniqueIdentifier>{74dd4ab8-d92e-4b76-aeb6-8ea3712e3444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel\StageLevels">
+      <UniqueIdentifier>{aeaa5fad-630c-44b4-87ed-63ec8237153c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel\StageLevels\Stage1">
+      <UniqueIdentifier>{89f38798-8705-4a89-b674-d17f7c2291f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel\StageLevels\Stage2">
+      <UniqueIdentifier>{d70f74ee-4304-4ccd-bb3e-577fe392ecf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel\StageLevels\Stage3">
+      <UniqueIdentifier>{e60c4caa-58ac-4147-a036-2401dd6fa5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel\CraditLevel">
+      <UniqueIdentifier>{3ae7bbd4-4684-4d8d-9de1-dec4781f7c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Component">
+      <UniqueIdentifier>{5ae0bb06-dfe8-4cf0-a757-d478959e34d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel\LoadingLevel">
+      <UniqueIdentifier>{a92f77cc-f4ee-4b5b-ad6d-8b27e6fedc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\LoadingScreen">
+      <UniqueIdentifier>{ba156ea0-4f23-4218-a9b1-fdd675a89534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\UIIconSkill">
+      <UniqueIdentifier>{4b6cdf5b-fc18-4924-805b-7b263a3201d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameManagers\UIManager">
+      <UniqueIdentifier>{3f753c38-3364-4c9e-a62d-c84b43bb5c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel\GameoverLevel">
+      <UniqueIdentifier>{8a1d2b1e-b446-438d-8702-520d707d6221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientBaseClass\ClientLevel\SettingLevel">
+      <UniqueIdentifier>{a43beba8-402f-4a0a-86e5-2fc116c503c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors">
+      <UniqueIdentifier>{1af94855-ac0d-46d5-82aa-770ca83350e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Settings">
+      <UniqueIdentifier>{afa46299-cafe-4848-82b6-2804a27a88fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Settings\SoundBar">
+      <UniqueIdentifier>{284b9057-ca56-4334-b4b4-688cb9f5cecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Settings\KeySetting">
+      <UniqueIdentifier>{0add2ee6-d628-466d-96be-8032fef57b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Character">
+      <UniqueIdentifier>{794b432a-498b-4b93-bd99-104e0b858220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Character\Bard">
+      <UniqueIdentifier>{597564ae-7f06-4f65-8a41-d7b41ece4bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Character\Sorcerer">
+      <UniqueIdentifier>{ac876ee7-267a-4060-8384-4f6435a7deac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Character\Warrior">
+      <UniqueIdentifier>{bf6566b1-3ed4-4356-8ae1-09d37150a6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Character\Thief">
+      <UniqueIdentifier>{f7495748-06e5-4f6f-becb-56d1a4d2345a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Character\ChracterBase">
+      <UniqueIdentifier>{c7fa6b81-f15c-48f5-a6b1-5d6d38b0e0da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Boss">
+      <UniqueIdentifier>{c376a22f-a227-4746-a50a-819f4f7dd7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Boss\Boss">
+      <UniqueIdentifier>{16b3dda9-80ab-4430-8ce8-dfd361377c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Boss\Boss\Dragon">
+      <UniqueIdentifier>{8365394d-d43b-48fd-8363-44806b16604a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Boss\Boss\Lich">
+      <UniqueIdentifier>{e3cf0edc-f94e-4177-86e1-4864a041e129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Boss\Boss\Wolf">
+      <UniqueIdentifier>{94b640ec-f817-4b57-a776-689d0a3f3eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Boss\BossBase">
+      <UniqueIdentifier>{91a02f03-7a57-4960-baf0-d20cced071da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Boss\BossHP">
+      <UniqueIdentifier>{1ccd8435-ca23-4eba-b4ea-39de6a9b69c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\BackGround">
+      <UniqueIdentifier>{162547d6-f735-41b7-b1a4-33edf5f948e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Dialogue">
+      <UniqueIdentifier>{99250110-edb5-49c6-a1ca-09217d792b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Cradit">
+      <UniqueIdentifier>{5d3a158d-0ceb-44ad-87b8-fa50abd3229c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameContents\Actors\Settings\DefaultSetting">
+      <UniqueIdentifier>{72b6993e-bcc5-4910-9f0c-b139e40e2aca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\ClientEntry.h">
+      <Filter>ClientBaseClass\ClientEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\PrototypeEditerLevel.h">
+      <Filter>ClientBaseClass\ClientLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\NoteManager.h">
+      <Filter>InGameManagers\NoteManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameManager.h">
+      <Filter>InGameManagers\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\BGMManager.h">
+      <Filter>InGameManagers\BGMManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\NoteEditer.h">
+      <Filter>NoteEditors\NoteEditer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Note.h">
+      <Filter>InGameContents\Note</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Warrior.h">
+      <Filter>InGameContents\Actors\Character\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Bard.h">
+      <Filter>InGameContents\Actors\Character\Bard</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Sorcerer.h">
+      <Filter>InGameContents\Actors\Character\Sorcerer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Thief.h">
+      <Filter>InGameContents\Actors\Character\Thief</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\TimelineManager.h">
+      <Filter>NoteEditors\TimelineManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\TimelineBlock.h">
+      <Filter>NoteEditors\TImelineBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CurrTimeBlock.h">
+      <Filter>NoteEditors\CurrTimeBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\TimelineCurrNote.h">
+      <Filter>NoteEditors\TimelineCurrNote</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\UI.h">
+      <Filter>InGameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\BossManager.h">
+      <Filter>InGameManagers\BossManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\BackGround.h">
+      <Filter>InGameContents\Actors\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ClientEnum.h">
+      <Filter>ClientEnum</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\TitleLevel.h">
+      <Filter>ClientBaseClass\ClientLevel\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Stage1.h">
+      <Filter>ClientBaseClass\ClientLevel\StageLevels\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Character.h">
+      <Filter>InGameContents\Actors\Character\ChracterBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Title.h">
+      <Filter>InGameContents\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ClientWorld.h">
+      <Filter>ClientBaseClass\ClientWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\PrototypeEditerWorld.h">
+      <Filter>ClientBaseClass\EditorWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Dragon.h">
+      <Filter>InGameContents\Actors\Boss\Boss\Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Lich.h">
+      <Filter>InGameContents\Actors\Boss\Boss\Lich</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Wolf.h">
+      <Filter>InGameContents\Actors\Boss\Boss\Wolf</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Boss.h">
+      <Filter>InGameContents\Actors\Boss\BossBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Stage2.h">
+      <Filter>ClientBaseClass\ClientLevel\StageLevels\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Setting.h">
+      <Filter>InGameContents\Actors\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\HPComponent.h">
+      <Filter>InGameContents\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Stage3.h">
+      <Filter>ClientBaseClass\ClientLevel\StageLevels\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\BossHP.h">
+      <Filter>InGameContents\Actors\Boss\BossHP</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\DialogueLevel.h">
+      <Filter>ClientBaseClass\ClientLevel\DialogueLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\LoadingLevel.h">
+      <Filter>ClientBaseClass\ClientLevel\LoadingLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\LoadingScreen.h">
+      <Filter>InGameContents\LoadingScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\UiIconSkill.h">
+      <Filter>InGameContents\UIIconSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\UIManager.h">
+      <Filter>InGameManagers\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Dialogue.h">
+      <Filter>InGameContents\Actors\Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameOverLevel.h">
+      <Filter>ClientBaseClass\ClientLevel\GameoverLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SoundBar.h">
+      <Filter>InGameContents\Actors\Settings\SoundBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\SettingLevel.h">
+      <Filter>ClientBaseClass\ClientLevel\SettingLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\KeySetting.h">
+      <Filter>InGameContents\Actors\Settings\KeySetting</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\DefautSetting.h">
+      <Filter>InGameContents\Actors\Settings\DefaultSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CraditLevel.h">
+      <Filter>ClientBaseClass\ClientLevel\CraditLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Cradit.h">
+      <Filter>InGameContents\Actors\Cradit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\ClientEntry.cpp">
+      <Filter>ClientBaseClass\ClientEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PrototypeEditerLevel.cpp">
+      <Filter>ClientBaseClass\ClientLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NoteManager.cpp">
+      <Filter>InGameManagers\NoteManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameManager.cpp">
+      <Filter>InGameManagers\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BGMManager.cpp">
+      <Filter>InGameManagers\BGMManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NoteEditer.cpp">
+      <Filter>NoteEditors\NoteEditer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Note.cpp">
+      <Filter>InGameContents\Note</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Warrior.cpp">
+      <Filter>InGameContents\Actors\Character\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Thief.cpp">
+      <Filter>InGameContents\Actors\Character\Thief</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sorcerer.cpp">
+      <Filter>InGameContents\Actors\Character\Sorcerer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Bard.cpp">
+      <Filter>InGameContents\Actors\Character\Bard</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TimelineManager.cpp">
+      <Filter>NoteEditors\TimelineManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TimelineBlock.cpp">
+      <Filter>NoteEditors\TImelineBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CurrTimeBlock.cpp">
+      <Filter>NoteEditors\CurrTimeBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TimelineCurrNote.cpp">
+      <Filter>NoteEditors\TimelineCurrNote</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI.cpp">
+      <Filter>InGameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BackGround.cpp">
+      <Filter>InGameContents\Actors\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BossManager.cpp">
+      <Filter>InGameManagers\BossManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character.cpp">
+      <Filter>InGameContents\Actors\Character\ChracterBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TitleLevel.cpp">
+      <Filter>ClientBaseClass\ClientLevel\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Title.cpp">
+      <Filter>InGameContents\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Stage1.cpp">
+      <Filter>ClientBaseClass\ClientLevel\StageLevels\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ClientWorld.cpp">
+      <Filter>ClientBaseClass\ClientWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PrototypeEditerWorld.cpp">
+      <Filter>ClientBaseClass\EditorWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Dragon.cpp">
+      <Filter>InGameContents\Actors\Boss\Boss\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Lich.cpp">
+      <Filter>InGameContents\Actors\Boss\Boss\Lich</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Wolf.cpp">
+      <Filter>InGameContents\Actors\Boss\Boss\Wolf</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Boss.cpp">
+      <Filter>InGameContents\Actors\Boss\BossBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Stage2.cpp">
+      <Filter>ClientBaseClass\ClientLevel\StageLevels\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Setting.cpp">
+      <Filter>InGameContents\Actors\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HPComponent.cpp">
+      <Filter>InGameContents\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Stage3.cpp">
+      <Filter>ClientBaseClass\ClientLevel\StageLevels\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BossHP.cpp">
+      <Filter>InGameContents\Actors\Boss\BossHP</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DialogueLevel.cpp">
+      <Filter>ClientBaseClass\ClientLevel\DialogueLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LoadingLevel.cpp">
+      <Filter>ClientBaseClass\ClientLevel\LoadingLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LoadingScreen.cpp">
+      <Filter>InGameContents\LoadingScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UiIconSkill.cpp">
+      <Filter>InGameContents\UIIconSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UIManager.cpp">
+      <Filter>InGameManagers\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Dialogue.cpp">
+      <Filter>InGameContents\Actors\Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameOverLevel.cpp">
+      <Filter>ClientBaseClass\ClientLevel\GameoverLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SoundBar.cpp">
+      <Filter>InGameContents\Actors\Settings\SoundBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SettingLevel.cpp">
+      <Filter>ClientBaseClass\ClientLevel\SettingLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KeySetting.cpp">
+      <Filter>InGameContents\Actors\Settings\KeySetting</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DefautSetting.cpp">
+      <Filter>InGameContents\Actors\Settings\DefaultSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CraditLevel.cpp">
+      <Filter>ClientBaseClass\ClientLevel\CraditLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cradit.cpp">
+      <Filter>InGameContents\Actors\Cradit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\ObjBaseEngine.rc" />
+  </ItemGroup>
+</Project>

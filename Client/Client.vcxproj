@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\BackGround.h" />
+    <ClInclude Include="Header\Bard.h" />
+    <ClInclude Include="Header\BGMManager.h" />
+    <ClInclude Include="Header\Boss.h" />
+    <ClInclude Include="Header\BossHP.h" />
+    <ClInclude Include="Header\BossManager.h" />
+    <ClInclude Include="Header\Character.h" />
+    <ClInclude Include="Header\ClientEntry.h" />
+    <ClInclude Include="Header\ClientEnum.h" />
+    <ClInclude Include="Header\ClientWorld.h" />
+    <ClInclude Include="Header\Cradit.h" />
+    <ClInclude Include="Header\CraditLevel.h" />
+    <ClInclude Include="Header\CurrTimeBlock.h" />
+    <ClInclude Include="Header\DefautSetting.h" />
+    <ClInclude Include="Header\Dialogue.h" />
+    <ClInclude Include="Header\DialogueLevel.h" />
+    <ClInclude Include="Header\Dragon.h" />
+    <ClInclude Include="Header\GameOverLevel.h" />
+    <ClInclude Include="Header\HPComponent.h" />
+    <ClInclude Include="Header\KeySetting.h" />
+    <ClInclude Include="Header\Lich.h" />
+    <ClInclude Include="Header\LoadingLevel.h" />
+    <ClInclude Include="Header\LoadingScreen.h" />
+    <ClInclude Include="Header\Note.h" />
+    <ClInclude Include="Header\NoteEditer.h" />
+    <ClInclude Include="Header\NoteManager.h" />
+    <ClInclude Include="Header\PrototypeEditerLevel.h" />
+    <ClInclude Include="Header\PrototypeEditerWorld.h" />
+    <ClInclude Include="Header\Setting.h" />
+    <ClInclude Include="Header\SettingLevel.h" />
+    <ClInclude Include="Header\Sorcerer.h" />
+    <ClInclude Include="Header\SoundBar.h" />
+    <ClInclude Include="Header\Stage1.h" />
+    <ClInclude Include="Header\Stage2.h" />
+    <ClInclude Include="Header\Stage3.h" />
+    <ClInclude Include="Header\Thief.h" />
+    <ClInclude Include="Header\TimelineBlock.h" />
+    <ClInclude Include="Header\TimelineCurrNote.h" />
+    <ClInclude Include="Header\TimelineManager.h" />
+    <ClInclude Include="Header\Title.h" />
+    <ClInclude Include="Header\TitleLevel.h" />
+    <ClInclude Include="Header\UI.h" />
+    <ClInclude Include="Header\UiIconSkill.h" />
+    <ClInclude Include="Header\UIManager.h" />
+    <ClInclude Include="Header\Warrior.h" />
+    <ClInclude Include="Header\Wolf.h" />
+    <ClInclude Include="Src\GameManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\BackGround.cpp" />
+    <ClCompile Include="Src\Bard.cpp" />
+    <ClCompile Include="Src\BGMManager.cpp" />
+    <ClCompile Include="Src\Boss.cpp" />
+    <ClCompile Include="Src\BossHP.cpp" />
+    <ClCompile Include="Src\BossManager.cpp" />
+    <ClCompile Include="Src\Character.cpp" />
+    <ClCompile Include="Src\ClientEntry.cpp" />
+    <ClCompile Include="Src\ClientWorld.cpp" />
+    <ClCompile Include="Src\Cradit.cpp" />
+    <ClCompile Include="Src\CraditLevel.cpp" />
+    <ClCompile Include="Src\CurrTimeBlock.cpp" />
+    <ClCompile Include="Src\DefautSetting.cpp" />
+    <ClCompile Include="Src\Dialogue.cpp" />
+    <ClCompile Include="Src\DialogueLevel.cpp" />
+    <ClCompile Include="Src\Dragon.cpp" />
+    <ClCompile Include="Src\GameManager.cpp" />
+    <ClCompile Include="Src\GameOverLevel.cpp" />
+    <ClCompile Include="Src\HPComponent.cpp" />
+    <ClCompile Include="Src\KeySetting.cpp" />
+    <ClCompile Include="Src\Lich.cpp" />
+    <ClCompile Include="Src\LoadingLevel.cpp" />
+    <ClCompile Include="Src\LoadingScreen.cpp" />
+    <ClCompile Include="Src\Note.cpp" />
+    <ClCompile Include="Src\NoteEditer.cpp" />
+    <ClCompile Include="Src\NoteManager.cpp" />
+    <ClCompile Include="Src\PrototypeEditerLevel.cpp" />
+    <ClCompile Include="Src\PrototypeEditerWorld.cpp" />
+    <ClCompile Include="Src\Setting.cpp" />
+    <ClCompile Include="Src\SettingLevel.cpp" />
+    <ClCompile Include="Src\Sorcerer.cpp" />
+    <ClCompile Include="Src\SoundBar.cpp" />
+    <ClCompile Include="Src\Stage2.cpp" />
+    <ClCompile Include="Src\Stage1.cpp" />
+    <ClCompile Include="Src\Stage3.cpp" />
+    <ClCompile Include="Src\Thief.cpp" />
+    <ClCompile Include="Src\TimelineBlock.cpp" />
+    <ClCompile Include="Src\TimelineCurrNote.cpp" />
+    <ClCompile Include="Src\TimelineManager.cpp" />
+    <ClCompile Include="Src\Title.cpp" />
+    <ClCompile Include="Src\TitleLevel.cpp" />
+    <ClCompile Include="Src\UI.cpp" />
+    <ClCompile Include="Src\UiIconSkill.cpp" />
+    <ClCompile Include="Src\UIManager.cpp" />
+    <ClCompile Include="Src\Warrior.cpp" />
+    <ClCompile Include="Src\Wolf.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\ObjBaseEngine.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2674826b-a9e9-4f0d-a32e-aaca515ed2cd}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>$(SolutionDir)/ThirdParty/Rlottie/lib;$(SolutionDir)/ThirdParty/FMOD/lib/;$(SolutionDir)/x64/Debug/;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>$(SolutionDir)/ThirdParty/Rlottie/inc/;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>$(SolutionDir)/ThirdParty/Rlottie/lib/;$(SolutionDir)/ThirdParty/FMOD/lib/;$(SolutionDir)/x64/$(Configuration);$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>$(SolutionDir)/ThirdParty/Rlottie/inc/;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)/ThirdParty;$(SolutionDir)/Header;Header;Src</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ObjBaseEngine.lib;fmod_vc.lib;rlottie.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)/ThirdParty;$(SolutionDir)/Header;Header;Src</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ObjBaseEngine.lib;fmod_vc.lib;rlottie.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

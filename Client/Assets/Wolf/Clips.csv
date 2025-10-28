@@ -1,0 +1,8 @@
+AnimationClipName,frameTime,isLoop
+Idle,0.08f,TRUE
+Attack,0.05f,FALSE
+Skill1,0.05,FALSE
+Skill2,0.05,FALSE
+Charging,0.05f,FALSE
+Effect/attack_vfx,0.02f,FALSE
+Effect/skill2_vfx,0.05,FALSE

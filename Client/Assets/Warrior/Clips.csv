@@ -1,0 +1,7 @@
+AnimationClipName,frameTime,isLoop
+Effect/SkillEnter,0.03f,FALSE
+Effect/SkillExit,0.03f,FALSE
+Idle,0.03f,TRUE
+Attack,0.03f,FALSE
+Skill,0.03f,FALSE
+Effect/Attack,0.03f,FALSE

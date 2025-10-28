@@ -1,0 +1,16 @@
+AnimationClipName,frameTime,isLoop
+Idle,0.05f,TRUE
+Attack,0.05f,FALSE
+Skill1,0.8f,FALSE
+Skill2,0.05f,FALSE
+Charging,0.26666667f,FALSE
+Effect/Attack_vfx,0.03f,FALSE
+Effect/Skill1_magic,0.04137931f,FALSE
+Effect/Skill1_fire,0.07017544f,FALSE
+Effect/Skill2_light,0.04166667f,FALSE
+Effect/Skill2_magic,0.04166667f,FALSE
+Phase2/Idle,0.05f,TRUE
+Phase2/Attack,0.05f,FALSE
+Phase2/Charging,0.26666667f,FALSE
+Phase2/Skill1,0.8f,FALSE
+Phase2/Skill2,0.05f,FALSE

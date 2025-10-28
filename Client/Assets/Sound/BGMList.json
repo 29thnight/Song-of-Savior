@@ -1,0 +1,19 @@
+{
+    "Stage1": [
+        "stage2",
+        "stage2"
+    ],
+    "Stage2": [
+        "stage3",
+        "stage3"
+    ],
+    "Stage3": [
+        "stage4",
+        "stage4"
+    ],
+    "Stage4": [
+        "stage4",
+        "stage4"
+    ],
+    "StageNumber": 4
+}

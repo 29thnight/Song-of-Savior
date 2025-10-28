@@ -1,0 +1,257 @@
+{
+  "ImageUI_2": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "Title_기본_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          1569.0,
+          562.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 1,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 2,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_3": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "Title_기본_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          1569.0,
+          744.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 7,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 8,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_5": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "Title_기본_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          1569.0,
+          931.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 5,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 6,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_7": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "Title_기본_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          1569.0,
+          650.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 3,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 4,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_0": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "Title_기본_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          1569.0,
+          238.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 0,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 0.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 0,
+        "isFlip": false
+      }
+    }
+  }
+}

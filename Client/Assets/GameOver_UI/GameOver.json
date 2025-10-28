@@ -1,0 +1,257 @@
+{
+  "ImageUI_4": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "GameOver_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          960.0,
+          331.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 0,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 0.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 0,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_5": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "GameOver_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          620.0,
+          331.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 2,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 0.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 0,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_0": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "GameOver_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          1278.0,
+          744.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 5,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 6,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_1": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "GameOver_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          1293.0,
+          331.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 1,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 0.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 0,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_2": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "GameOver_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          645.0,
+          747.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 3,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 4,
+        "isFlip": false
+      }
+    }
+  }
+}

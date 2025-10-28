@@ -1,0 +1,8 @@
+AnimationClipName,frameTime,isLoop
+Effect/Heal_vfx,0.03f,FALSE
+Effect/MagicCircle_vfx,0.03f,FALSE
+Effect/Sparkle_vfx,0.03f,FALSE
+Idle,0.05f,TRUE
+Attack,0.03f,FALSE
+Skill,0.03f,FALSE
+Surprised,0.03f,TRUE

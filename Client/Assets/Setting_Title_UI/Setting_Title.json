@@ -1,0 +1,206 @@
+{
+  "ImageUI_5": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "Setting_Title_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          962.0,
+          539.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 0,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 0.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 0,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_6": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "Setting_Title_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          690.0,
+          428.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 3,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 4,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_9": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "Setting_Title_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          951.0,
+          588.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 5,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 6,
+        "isFlip": false
+      }
+    }
+  },
+  "ImageUI_0": {
+    "Actor Class Type": "Client::UI",
+    "textureName": "Setting_Title_UI",
+    "layerIndex": 3,
+    "Components": {
+      "RootComponent": {
+        "Component Class Type": "Engine::SceneComponent",
+        "RelativeLocation": [
+          951.0,
+          724.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0
+      },
+      "PrimaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 7,
+        "isFlip": false
+      },
+      "SecondaryBitmap": {
+        "Component Class Type": "Engine::BitmapComponent",
+        "RelativeLocation": [
+          0.0,
+          0.0
+        ],
+        "RelativeScale": [
+          1.0,
+          1.0
+        ],
+        "RelativeRotation": 0.0,
+        "opacity": 1.0,
+        "currentTextureIndex": 0,
+        "currentBitmapIndex": 8,
+        "isFlip": false
+      }
+    }
+  }
+}

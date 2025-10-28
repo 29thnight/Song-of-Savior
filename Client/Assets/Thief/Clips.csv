@@ -1,0 +1,4 @@
+AnimationClipName,frameTime,isLoop
+Idle,0.03f,TRUE
+Attack,0.03f,FALSE
+Skill,0.03f,FALSE
