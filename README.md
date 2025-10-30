@@ -1,6 +1,7 @@
 # SOS Rhythm Game Project – SVN Revision History Portfolio
 
 본 리포지토리는 내부 SVN 기반으로 관리된 **SOS 프로젝트**의 주요 개발 이력과 커밋 로그를 정리한 아카이브입니다.  
+(내부 SVN 관리 이전 Git 작업본은 https://github.com/29thnight/MiniProjectQ2/commits 에 정리되어 있습니다.)
 리비전 메시지는 2024년 8월 5일부터 8월 7일까지의 주요 개발 내역을 기반으로 하며,  
 핵심적인 기능 추가, 버그 수정, 핫픽스, 에디터 개선 등 프로젝트 전반의 개발 흐름을 담고 있습니다.
 
